@@ -4,9 +4,7 @@
     box-sizing: border-box;
   }
   html, body {
-        width: 80%;
-  max-width: 1000px;
-  min-width: 700px;
+      height:100%;
   }
   body {
     font: 12px 'Open Sans', sans-serif;
