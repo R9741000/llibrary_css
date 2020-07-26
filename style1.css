@@ -5,6 +5,9 @@
   }
   html, body {
     height: 100%;
+        width: 80%;
+  max-width: 1000px;
+  min-width: 700px;
   }
   body {
     font: 12px 'Open Sans', sans-serif;
