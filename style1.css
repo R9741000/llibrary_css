@@ -16,9 +16,9 @@ body{
   background-color: black;
 }
 #responsive{
-      width: 80%;
-  max-width: 1000px;
-  min-width: 700px;
+      width: auto;
+  max-width: auto;
+  min-width: auto;
 }
   #ban
   {
