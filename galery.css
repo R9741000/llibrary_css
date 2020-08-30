@@ -1,0 +1,36 @@
+img { 
+  border-radius: 6px;
+  opacity: 0.3;
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+img:hover {
+  opacity: 5;
+  -webkit-transform:scale(1.25); /* Safari et Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* Internet Explorer 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+}
+div.gallery {
+    margin: 20px;
+  float: left;
+  width: 380px;
+}
+
+    div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desk {
+    color:whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 6px;
+    text-align: center;
+    }
