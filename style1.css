@@ -70,7 +70,7 @@ body{
   .headings {
     flex: 1;
     padding: 80px 30px;
-    background: #F8F8FF; /*ici*/
+    background: #C0C0C0; /*ici*/
     box-shadow: 0 0 5px black;
     transform: translate3d(0, 0, 0);
     transition: transform .3s;
@@ -100,7 +100,7 @@ body{
     width: 0%;
   }
   .menu li a {
-    color: #F8F8FF;
+    color: black;
     border: 3px solid #fff;
     text-align: center;
     font-size: 18px;
