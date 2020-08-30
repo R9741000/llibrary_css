@@ -13,7 +13,7 @@
     overflow-x: hidden;
   }
 body{
-  background-color: #F8F8FF;
+  background-color: black;
 }
   #ban
   {
@@ -100,7 +100,7 @@ body{
     width: 0%;
   }
   .menu li a {
-    color: #fff;
+    color: #F8F8FF;
     border: 3px solid #fff;
     text-align: center;
     font-size: 18px;
