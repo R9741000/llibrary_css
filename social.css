@@ -1,0 +1,33 @@
+li {
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+}
+p{
+    margin-left: 150px;
+    margin-right: 190px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 190px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.social{
+    margin-left: 150px;
+    font-size: 20px;
+    color: whitesmoke;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+.social:hover{
+    color: #007FFF;
+}
+button{
+    background-color: red
+
+}
