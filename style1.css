@@ -8,7 +8,7 @@
   }
   body {
     font: 12px 'Open Sans', sans-serif;
-    color: #212121;
+    color: #F8F8FF;
     background: #eeeeee;
     overflow-x: hidden;
   }
@@ -88,7 +88,7 @@ body{
     transform: translate3d(-280px, 0px, 0px);
     position: absolute;
     width: 280px;
-    background: black;
+    background: #fff;
     color: #eee;
     left: 0;
     height: 100%;
