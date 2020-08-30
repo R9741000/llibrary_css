@@ -8,7 +8,7 @@
   }
   body {
     font: 12px 'Open Sans', sans-serif;
-    color: #F8F8FF;
+    color: #212121;
     background: #eeeeee;
     overflow-x: hidden;
   }
@@ -70,7 +70,7 @@ body{
   .headings {
     flex: 1;
     padding: 80px 30px;
-    background: #393939;
+    background: #F8F8FF; /*ici*/
     box-shadow: 0 0 5px black;
     transform: translate3d(0, 0, 0);
     transition: transform .3s;
