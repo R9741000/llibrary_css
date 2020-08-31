@@ -1,3 +1,43 @@
+@media screen and (min-width: 800px) { 
+    .container { 
+      margin: 1em 2em; 
+      target / context = result 
+    } 
+  }
+  .container { 
+    column-count: 3; 
+  } 
+  .container { 
+    column-width: 10em; 
+  } 
+  .container { 
+    display: flex; 
+  } 
+  
+  .item { 
+    flex: 1; 
+  } 
+  .container { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+  }
+  img {
+    max-width: 100%:
+  }
+  html { 
+    font-size: 1em; 
+  } 
+  
+  h1 { 
+    font-size: 2rem; 
+  } 
+  
+  @media (min-width: 1200px) { 
+    h1 {
+      font-size: 4rem; 
+    }
+  } 
+
 * {
     margin: 0.1%;
     padding: 0.1%;
