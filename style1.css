@@ -1,27 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0.1%;
+    padding: 0.1%;
     box-sizing: border-box;
   }
   html, body {
     height: 100%;
   }
   body {
-    font: 12px 'Open Sans', sans-serif;
+    font: 100% 'Open Sans', sans-serif;
     color: #212121;
     background: #eeeeee;
     overflow-x: hidden;
   }
 body{
-  background-color: black;
+  background-color: white;
 }
   #ban
   {
       
       text-align: center;
-      color:white;
+      color:black;
       font-family: 'Courier New', Courier, monospace;
-      font-size: 25px;
+      font-size: 185%;
    
   }
   
@@ -35,24 +35,24 @@ body{
   }
   label[data-function*='swipe'] {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 3.2%;
+    left: 2.4%;
     z-index: 1;
     display: block;
-    width: 42px;
-    height: 42px;
-    font: 42px fontawesome;
+    width: 2.6%;
+    height: 5%;
+    font: 270% fontawesome;
     text-align: center;
-    color:white;
+    color:black;
     cursor: pointer;
     transform: translate3d(0, 0, 0);
     transition: transform .3s;
   }
   label[data-function*='swipe']:hover {
-    color:#959595;
+    color: silver;
   }
   input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
-    transform: translate3d(280px, 0, 0);
+    transform: translate3d(280%, 0, 0);
   }
   label[data-function*='swipe']:checked {
     display: block;
@@ -62,21 +62,21 @@ body{
   }
   input[data-function*='swipe']:checked ~ label:nth-child(2){
     display: block;
-    transform: translate3d(280px, 0px, 0px);
+    transform: translate3d(645%, 0px, 0px);
   }
   input[data-function*='swipe']:checked ~ label:nth-child(3){
     display: none;
   }
   .headings {
     flex: 1;
-    padding: 80px 30px;
-    background: #C0C0C0; /*ici*/
+    padding: 2% 0.5%;
+    background: #292B2B; /*ici*/
     box-shadow: 0 0 5px black;
     transform: translate3d(0, 0, 0);
     transition: transform .3s;
   }
   input[data-function*='swipe']:checked ~ .headings {
-    transform: translate3d(280px, 0px, 0px);
+    transform: translate3d(18%, 0px, 0px);
   }
   input[data-function*='swipe']:checked ~ .sidebar {
     transform: translate3d(0px, 0px, 0px);
@@ -85,59 +85,59 @@ body{
     width: 100%;
   }
   .sidebar {
-    transform: translate3d(-280px, 0px, 0px);
+    transform: translate3d(-280%, 0%, 0px);
     position: absolute;
-    width: 280px;
-    background: black;
+    width: 16%;
+    background: white;
     color: #eee;
     left: 0;
     height: 100%;
     transition: all .3s;
   }
   .menu li {
-    padding: 10px;
+    padding: 2.5%;
     list-style: none;
     width: 0%;
   }
   .menu li a {
     color: black;
-    border: 3px solid #fff;
+    border: none;
     text-align: center;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 135%;
+    font-weight: 90%;
     display: block;
     text-decoration: none;
-    padding: 5px 0px 5px 0;
-    margin: 0 20px;
+    padding: 3.5% 0% 3.5% 0%;
+    margin: 0 20%;
   }
   h1, p {
-    margin: 30px 0;
-    font-size: 45px;
-    font-weight: 280;
+    margin: 2.2% 0;
+    font-size: 14%;
+    font-weight: 25%;
   }
   p {
-    font-size: 30px;
+    font-size: 155%;
   }
   #text 
 {
-    margin-left: 150px;
-    margin-right: 190px;
-    color: white;
+    margin-left: 9.5%;
+    margin-right: 22%;
+    color: #0174DF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 136%;
 }
 div.taille {
     float: left;
-    margin-left: 150px;
-    width: 370px;
+    margin-left: 9.5%;
+    width: 22%;
 }
     
     div.polaroid {
       width: 75%;
       background-color: white;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      line-height: 10px;
-      margin-bottom:15px;
+      box-shadow: 0 2% 4% 0 rgba(0, 0, 0, 0.2), 0 3% 10% 0 rgba(0, 0, 0, 0.19);
+      line-height: 5%;
+      margin-bottom:4%;
     }
     
     div.container1 {
@@ -151,10 +151,8 @@ div.taille {
       }
 #endban
 {
-      color:white;
+      color:black;
       font-family: 'Courier New', Courier, monospace;
-      font-size: 15px;
-      margin-left: 25px;
+      font-size: 100%;
+      margin-left: 2%;
 }
-
-
