@@ -49,14 +49,17 @@ p{
     margin-left: 4.6%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
-
 hr{
     color:white;
     align-items: center;
     size: 50%;
 
+}
+em{
+    font-style: oblique 30deg;
+}
+em:hover{
+    font-style: normal;
 }
 .endpage {
     height: 20%;
