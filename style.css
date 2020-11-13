@@ -32,8 +32,9 @@ h2{
 strong {
 font-size: 106%;
 }
-strong:hover {
-    color:#f03838;
+strong:hover{
+    color: #f03838;
+
 }
 p{
     color: white;
@@ -73,6 +74,48 @@ em:hover{
     -o-transition: all 0.5s ease; 
     transition: all 0.5s ease; 
 }
+.bg1 {
+  background-image: url("https://i.imgur.com/G5abVkm.jpg");
+  height: 100%;
+  margin-left: 36%;
+  width: 30%;
+  height: 30%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg1:hover{
+  background-image: url("https://i.imgur.com/G5abVkm.jpg");
+  height: 105%;
+  margin-left: 16%;
+  width: 70%;
+  height: 70%;
+  -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -ms-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+}
+.bg2 {
+  background-image: url("https://i.imgur.com/DXOtyCi.jpgg");
+  height: 60%;
+  margin-left: 36%;
+  width: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2:hover{
+  background-image: url("https://i.imgur.com/DXOtyCi.jpgg");
+  height: 110%;
+    margin-left: 16%;
+  width: 60%;
+  -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -ms-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+}
 .zoom {
 
     -webkit-transition: all 0.5s ease; 
@@ -100,8 +143,13 @@ em:hover{
     transform: translate(-50%, -50%);
 
 }
+#ban{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 106%;
+}
 .container1, .container2, .container3, .container4{
-    background-color:transparent;
+    background-color:#101012;
 }
 .container1:hover, .container2:hover, .container3:hover, .container4:hover{
         -webkit-transition: all 0.5s ease; 
